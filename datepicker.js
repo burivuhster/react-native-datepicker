@@ -410,6 +410,7 @@ class DatePicker extends Component {
                       onPress={this.onPressCancel}
                       style={[Style.btnText, Style.btnCancel, customStyles.btnCancel]}
                       testID={cancelBtnTestID}
+                      accessibilityRole={'button'}
                     >
                       <Text
                         allowFontScaling={allowFontScaling}
@@ -423,6 +424,7 @@ class DatePicker extends Component {
                       onPress={this.onPressConfirm}
                       style={[Style.btnText, Style.btnConfirm, customStyles.btnConfirm]}
                       testID={confirmBtnTestID}
+                      accessibilityRole={'button'}
                     >
                       <Text allowFontScaling={allowFontScaling}
                             style={[Style.btnTextText, customStyles.btnTextConfirm]}
