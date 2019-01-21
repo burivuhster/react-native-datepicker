@@ -382,10 +382,12 @@ class DatePicker extends Component {
                 activeOpacity={1}
                 underlayColor={'#00000077'}
                 onPress={this.onPressMask}
+                accessible={false}
               >
                 <TouchableComponent
                   underlayColor={'#fff'}
                   style={{flex: 1}}
+                  accessible={false}
                 >
                   <Animated.View
                     style={[Style.datePickerCon, {height: this.state.animatedHeight}, customStyles.datePickerCon]}
